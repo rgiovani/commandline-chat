@@ -1,5 +1,7 @@
+const DEFAULT_URL = 'http://localhost:9898/';
+
 export default class CliConfig {
-    constructor({ username, room, hostUri }) {
+    constructor({ username, room, hostUri = DEFAULT_URL }) {
         this.username = username;
         this.room = room;
         const { hostname, port, protocol } = new URL(hostUri);
