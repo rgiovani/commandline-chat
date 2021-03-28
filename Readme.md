@@ -72,3 +72,5 @@ npm unlink -g @rgiovani/commandline-chat-client
 <br>
 
 
+and that's it, have fun! keep talking and give me your star!
+@rgiovani
