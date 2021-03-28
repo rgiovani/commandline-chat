@@ -35,7 +35,7 @@ npm unlink -g @rgiovani/commandline-chat-client
 <br>
 
 ```bash
- cmdchat --username namehere --room roomhere
+  cmdchat --username namehere --room roomhere
 
   cmdchat --username namehere --room roomhere --hostUri https://myserver.com/
 ```
